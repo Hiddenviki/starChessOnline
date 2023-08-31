@@ -7,5 +7,6 @@
 ![идея](https://github.com/Hiddenviki/starChessOnline/blob/main/идея.png)
 Шахматная доска и шахматы выполнены в Блендере по мотивам сериала
 ![Шахматы](https://github.com/Hiddenviki/starChessOnline/blob/main/гифка%20шахмат.gif)
+
 Мы посадили детей играть, им понравилось
 ![Играют](https://github.com/Hiddenviki/starChessOnline/blob/main/играют.png)
