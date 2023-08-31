@@ -1,0 +1,125 @@
+h1 {
+
+  display: flex;
+  text-align: center;
+  font-family: 'sans-serif;';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 63px;
+  color: #FFFFFF;
+
+  text-shadow: 0 0 8px #5200FF;
+
+  position: relative;
+  z-index: 2;
+}
+
+
+.window {
+  position: absolute;
+  width: 590px;
+  height: 350px;
+  background: #282A5E;
+  box-shadow: -8px 8px 16px rgba(230, 230, 230, 0.2), 8px -8px 16px rgba(230, 230, 230, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.9), 8px 8px 20px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+  border-radius: 11px;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.window form {
+    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.window form div {
+  text-align: center;
+}
+
+.window form label {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.window form input[type="text"],
+.window form input[type="password"] {
+  width: 50%;
+  height: 50px;
+  float:right;
+  margin-right: 60px;
+  background: #282A5E;
+  color: #ffffff;
+  font-size: 30px;
+
+  border-color: black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button-panel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 10px;
+  width: 100%;
+
+}
+
+.button-panel button {
+  background: #A184DF;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-panel button:hover {
+  background: #8d69da;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-panel button:active {
+  background: #A184DF;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.button-panel button[type="back"] {
+  background: #A184DF;
+  margin-right: 50px;
+}
+
+
+.button-panel button[type="submit"] {
+  background: #454ACC;
+  margin-left: 50px;
+}
+
+.button-panel button[type="submit"]:hover {
+  background: #373ccc;
+  margin-left: 50px;
+}
+
+.button-panel button[type="submit"]:active {
+  background: #454ACC;
+  margin-left: 50px;
+}

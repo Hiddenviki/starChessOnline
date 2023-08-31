@@ -1,0 +1,69 @@
+h1 {
+
+	display: flex;
+  justify-content: center;
+  text-align: center;
+	font-family: 'sans-serif;';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 63px;
+	color: #FFFFFF;
+
+	text-shadow: 0 0 8px #5200FF;
+  margin-top: 130px;
+
+}
+
+
+.button-container {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  bottom: 50%; /* определяет расположение кнопок от нижней границы страницы */
+  left: 50%; /* определяет центрирование кнопок по горизонтали */
+  transform: translateX(-50%); /* центрирование кнопок */
+}
+
+.button {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+  background: #5200FF;
+  box-shadow: -8px 8px 16px rgba(230, 230, 230, 0.2), 8px -8px 16px rgba(230, 230, 230, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.9), 8px 8px 20px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+  border-radius: 11px;
+  margin-bottom: 30px; /* добавляет отступ между кнопками */
+}
+
+.button:hover {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+  background: #4803d2;
+  box-shadow: -8px 8px 16px rgba(230, 230, 230, 0.2), 8px -8px 16px rgba(230, 230, 230, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.9), 8px 8px 20px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+  border-radius: 11px;
+  margin-bottom: 30px; /* добавляет отступ между кнопками */
+}
+
+.button:active {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 64px;
+  background: #5200ff;
+  box-shadow: -8px 8px 16px rgba(230, 230, 230, 0.2), 8px -8px 16px rgba(230, 230, 230, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.9), 8px 8px 20px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+  border-radius: 11px;
+  margin-bottom: 30px; /* добавляет отступ между кнопками */
+}
+

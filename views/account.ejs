@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Startrack Chess Online</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style4account.css">
+        <style>
+      body
+      {
+        background: url("/stars") no-repeat center center fixed;
+        width: 1440px;
+        height: 814px;
+        background-size: cover;
+      }
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert alert-primary" role="alert" id="alert-success" style="display: none;"></div>
+      <div class="alert alert-warning" role="alert" id="alert-error" style="display: none;"></div>
+      
+        <div class="row">
+          <div class="col-*">
+
+            <h4>Заявки в друзья</h4>
+            <div class="scrollable-container_3">
+              <span id="user-followers"></span>
+            </div>
+
+            <h5>Топ - 3</h5>
+            <div class="scrollable-container_4">
+              <span id="user-top"></span> 
+            </div>
+            
+          </div>
+          <div class="col-*">
+            <h1>Трёхмерные шахматы онлайн</h1>
+            <!-- <h3>Аккаунт</h3> -->
+            <h3><span id="user-name"></span></h3>
+            <div class="button-container">
+                <a href="/create_game" class="button">Создать игру</a>
+                <a href="/game" class="button">Играть онлайн</a>
+                <a href="/" class="button" id="logout-button">Выход</a>
+              </div>
+            <h2><a href="/rules" target="_blank" class="button1">правила</a></h2>
+          </div>
+          <div class="col-*">
+            <h7>Статистика</h7>
+
+            <div class="scrollable-container_2">
+              Всего побед: 
+              <span id="user-score"></span>
+                
+            </div>
+
+            <h6>Друзья</h6>
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand"></a>
+                  <form class="d-flex" role="search">
+                    <!-- вот тут поисковик куда вбивают слова для поиска -->
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="search-input" >
+                    <!-- тут кнопка поиск -->
+                    <button class="btn btn-outline-success" type="submit" id="search-btn">Поиск</button>                    
+                  </form>
+
+                </div>
+              </nav>
+              
+              <!-- контейнер друзей -->
+            <div class="scrollable-container_1" >
+              <button type="button" class="btn-close" aria-label="Close" id="close-find" style="display: none;"></button>
+              <span id="user-friends"></span>
+              <span id="found-users"></span>
+            </div>
+            
+        </div>
+      </div>
+    <script src="js/account.js"></script>
+  </body>
+</html>
